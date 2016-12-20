@@ -1,0 +1,946 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"U",
+				"User-Comments"
+			],
+			[
+				"Us",
+				"User-Rating"
+			],
+			[
+				"resu",
+				"resultContent"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"Wifi",
+				"Wifi-Name"
+			],
+			[
+				"view",
+				"view2"
+			],
+			[
+				"Coo",
+				"Coordinates"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"o",
+				"option	Tag"
+			],
+			[
+				"ge",
+				"geojsonMarkerOptions3"
+			],
+			[
+				"geo",
+				"geoOption"
+			],
+			[
+				"tes",
+				"testResult"
+			],
+			[
+				"cur",
+				"currentLat"
+			],
+			[
+				"lat",
+				"latlng"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"Wi",
+				"Wifi-Name"
+			],
+			[
+				"pr",
+				"properties"
+			],
+			[
+				"on",
+				"onEachFeature"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"en_",
+				"en_HelpText"
+			],
+			[
+				"en",
+				"en_Label"
+			],
+			[
+				"lo",
+				"log_table_simple_extended"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"vi",
+				"video"
+			],
+			[
+				"more",
+				"more-info"
+			],
+			[
+				"F",
+				"Forms_ID"
+			],
+			[
+				"H",
+				"HTTParty"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"team",
+				"team-member-pic"
+			],
+			[
+				"te",
+				"team-member"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"outpu",
+				"outputY"
+			],
+			[
+				"outp",
+				"outputY"
+			],
+			[
+				"out",
+				"outputY"
+			],
+			[
+				"input",
+				"inputX"
+			],
+			[
+				"in",
+				"included_cols"
+			],
+			[
+				"fff",
+				"fff"
+			],
+			[
+				"local",
+				"localhost"
+			],
+			[
+				"La",
+				"Laravel"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fa",
+				"favorites"
+			],
+			[
+				"curren",
+				"currentSong"
+			],
+			[
+				"rando",
+				"randomSong"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/index.handlebars",
+			"settings":
+			{
+				"buffer_size": 14488,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/history.handlebars",
+			"settings":
+			{
+				"buffer_size": 4254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1456,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/faq.handlebars",
+			"settings":
+			{
+				"buffer_size": 3465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/login.handlebars",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/settings.handlebars",
+			"settings":
+			{
+				"buffer_size": 3168,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/locate.js",
+			"settings":
+			{
+				"buffer_size": 21912,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "data.json",
+			"settings":
+			{
+				"buffer_size": 2036,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pak",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/masudrahman/Code/IntroHCI/lab7/views/index.handlebars",
+		"/Users/masudrahman/Code/IntroHCI/lab7/routes/index.js",
+		"/Users/masudrahman/Code/TeamWifi/data.json",
+		"/Users/masudrahman/Code/TeamWifi/views/login.handlebars",
+		"/Users/masudrahman/Code/TeamWifi/public/js/js.cookie.js",
+		"/Users/masudrahman/Code/TeamWifi/routes/history.js",
+		"/Users/masudrahman/Code/TeamWifi/views/history.handlebars",
+		"/Users/masudrahman/Code/IntroHCI/lab5/routes/index.js",
+		"/Users/masudrahman/Code/IntroHCI/lab5/data.json",
+		"/Users/masudrahman/Code/TeamWifi/static/index.html",
+		"/Users/masudrahman/Code/TeamWifi/static/test.html",
+		"/Users/masudrahman/Code/TeamWifi/static/css/style.css",
+		"/Users/masudrahman/Code/iCONCUR/iconcur_quiz_questions.sql",
+		"/Users/masudrahman/Code/TeamWifi/server.js",
+		"/Users/masudrahman/Code/TeamWifi/node_modules/express/lib/router/index.js",
+		"/Users/masudrahman/Code/TeamWifi/node_modules/express/index.js",
+		"/Users/masudrahman/Code/TeamWifi/static/login.html",
+		"/Users/masudrahman/Code/TeamWifi/static/wifi.html",
+		"/Users/masudrahman/Code/TeamWifi/static/history.html",
+		"/Users/masudrahman/Code/TeamWifi/static/faq.html",
+		"/Users/masudrahman/Code/TeamWifi/static/signout.html",
+		"/Users/masudrahman/Code/TeamWifi/static/settings.html",
+		"/Users/masudrahman/Code/WiFinder/static/css/style.css",
+		"/Users/masudrahman/Code/TeamWifi/static/js/wifi.js",
+		"/Users/masudrahman/Code/iCONCUR/essential_data.sql",
+		"/Users/masudrahman/Code/TeamWifi/static/logout.html",
+		"/Users/masudrahman/Code/TeamWifi/static/lol.html",
+		"/Users/masudrahman/Code/TeamWifi/static/js/materialize.js",
+		"/Users/masudrahman/Code/TeamWifi/index.html",
+		"/Users/masudrahman/Code/IntroHCI/lab2/LICENSE",
+		"/Users/masudrahman/Code/IntroHCI/lab2/Procfile",
+		"/Users/masudrahman/Code/IntroHCI/lab2/server.js",
+		"/Users/masudrahman/Code/iCONCUR/resources/lang/en/static.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/layouts/sharing.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/last_view.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/last_view_extended.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/create_extended.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/create.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/create_simple.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/last_view_simple.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/lang/en/sharing.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/layouts/simplesurvey.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/static/more-info.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/layouts/survey.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/static/home.blade.php",
+		"/Users/masudrahman/.bash_profile",
+		"/Users/masudrahman/.bash_rc",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/view_choice_simple.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/view_choice_extended.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/sharing/view_choice.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/lang/en/layouts.php",
+		"/Users/masudrahman/Code/iCONCUR/mydb_backup.sql",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_05_24_230723_create_Family_table.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/layouts/health_status.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/mypage.blade",
+		"/Users/masudrahman/Code/iCONCUR/storage/framework/views/e17bdbf44bf1a98e78baadbe9f25de9bbf0dc9e0.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_24_114934_create_Display_language_table.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/login/terms.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_24_113359_create_log_table_simple_extended_table.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_24_024613_create_log_table_simple_extended.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_05_24_230723_create_Forms_table.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_05_24_230723_create_users_table.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_23_113907_add_Ordering_to_Sections.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_24_000511_add_Forms_ID_and_Ordering_to_Questions.php",
+		"/Users/masudrahman/Code/iCONCUR/resources/views/static/legal.blade.php",
+		"/Users/masudrahman/Code/iCONCUR/.env",
+		"/Users/masudrahman/Code/iCONCUR/app/Http/routes.php",
+		"/Users/masudrahman/Code/iCONCUR/vendor/way/generators/readme.md",
+		"/Users/masudrahman/Code/iCONCUR/app/Http/Controllers/MyDataUseController.php",
+		"/Users/masudrahman/Code/iCONCUR/app/Http/Controllers/AdminController.php",
+		"/Users/masudrahman/Code/iCONCUR/app/Http/Controllers/Controller.php",
+		"/Users/masudrahman/Code/iCONCUR/database/migrations/2016_10_22_155445_add_Obj_version_and_Forms_ID_to_User_values.php",
+		"/Users/masudrahman/Code/iCONCUR/storage/framework/views/b7d7ada4016d3281322f18b27c1d70deb6447d7f.php",
+		"/Users/masudrahman/Code/iCONCUR/storage/framework/views/091c201ef10275af47fd8be3caac5b0b0bc3e6c6.php",
+		"/Users/masudrahman/Code/iCONCUR/.gitignore",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_10_22_155445_add_Obj_version_and_Forms_ID_to_User_values.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_10_21_163456_add_Obj_number_to_family.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_10_22_143832_add_Obj_version_to_Family_values.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/mydb_backup.sql",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/app/Http/routes.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/.gitignore",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_05_24_230723_create_Family_table.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_05_24_230723_create_Family_values_table.php",
+		"/Users/masudrahman/Desktop/iCONCUR COPY 101516/database/migrations/2016_10_22_153414_add_Obj_version_to_User_values.php",
+		"/Users/masudrahman/Code/iCONCUR/database/seeds/DatabaseSeeder.php",
+		"/Users/masudrahman/Code/iCONCUR/phpunit.xml",
+		"/usr/local/var/mysql/masuds-mbp.dynamic.ucsd.edu.err",
+		"/usr/local/var/mysql/masudrahman.pid",
+		"/usr/local/Cellar/mysql/5.7.16/support-files/my.cnf",
+		"/usr/local/Cellar/mysql/5.7.16/README",
+		"/Users/masudrahman/Code/iCONCUR/storage/logs/laravel.log",
+		"/Users/masudrahman/Code/iCONCUR/bootstrap/cache/.gitignore",
+		"/Users/masudrahman/Code/EasyFlight/README.md",
+		"/Users/masudrahman/Code/EasyFlight/app/views/flight_info/index.html.erb",
+		"/Users/masudrahman/Code/EasyFlight/app/bot/example.rb",
+		"/Users/masudrahman/Code/EasyFlight/config/routes.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/views/layouts/application.html.erb",
+		"/Users/masudrahman/Code/EasyFlight/db/migrate/20161001091911_create_data.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/controllers/application_controller.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/views/data/list.html.erb",
+		"/Users/masudrahman/Code/EasyFlight/app/controllers/data_controller.rb",
+		"/Users/masudrahman/Code/EasyFlight/db/migrate/20161001084010_data.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/views/layouts/mailer.html.erb",
+		"/Users/masudrahman/Desktop/web_scraper.rb",
+		"/Users/masudrahman/Code/EasyFlight/db/migrate/20161001091911",
+		"/Users/masudrahman/Code/EasyFlight/app/models/application_record.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/models/datum.rb",
+		"/Users/masudrahman/Code/EasyFlight/app/helpers/application_helper.rb",
+		"/Users/masudrahman/Code/EasyFlight/db/seeds.rb",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/news.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/contact.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/services.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/index-business.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/css/style.css",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/about.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/sc-tabs-accordions.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/index-business2.html",
+		"/Users/masudrahman/Code/housing-model/ml-model.py",
+		"/Users/masudrahman/Code/housing-model/scrapy.py",
+		"/Users/masudrahman/Code/Selenium/test_python_org_search.py",
+		"/Users/masudrahman/Code/Selenium/taco.py",
+		"/Users/masudrahman/Code/Selenium/python_org_search.py",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/page-contactus.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/blog-single.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/page-services.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/index-corporation.html",
+		"/Users/masudrahman/Code/marine-v1.0/HTML/blog-big-image.html",
+		"/Users/masudrahman/Code/wordpress/wp-content/themes/startwordpress/content.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"static.php",
+			"sharing.blade.php",
+			"sharing.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"str",
+			"x",
+			"result\"",
+			"result",
+			"Wifi-Name",
+			"resultContent",
+			"form",
+			"var",
+			"\"result\"",
+			"btnStar",
+			"Cookies",
+			"'name'",
+			"\"name\"",
+			"\"result\"",
+			"result",
+			"msg",
+			"loc",
+			"result",
+			"key",
+			"oncli",
+			"click",
+			"L.Control.",
+			"event",
+			"locationfound",
+			"fillOpacity",
+			"rating",
+			"btn-",
+			"y.items",
+			"cookie",
+			"name",
+			"cookie",
+			"swag",
+			"cookie",
+			"filename.json",
+			"filename",
+			"slow",
+			"0.7",
+			"<br>",
+			"ms",
+			"<br>",
+			"Layer",
+			"options",
+			"input",
+			"button",
+			"leaflet.js",
+			"Download",
+			"Down",
+			"pointTo",
+			"marker1",
+			"//",
+			"result",
+			"<option>",
+			"</a></li>",
+			"<li><a href=\"#\">",
+			"Great",
+			"meow",
+			"e",
+			"geojsonFeature",
+			"onEachFeature",
+			"domor",
+			"geojsonFeature",
+			"\",\n",
+			"app.use",
+			"index.html",
+			"geoJSON",
+			"speedof.me",
+			"dropdown",
+			"more_info",
+			"please see the flowchart",
+			"youtu",
+			"youtu.be",
+			"data encryption",
+			"make_choice_button",
+			"Make a New",
+			"132",
+			"p>",
+			"<p>",
+			"p",
+			"31",
+			"131",
+			"</div>",
+			"<div class=\"radio\">",
+			"radio",
+			"radio-inline",
+			"stem",
+			"130",
+			"sharing",
+			"a",
+			"sharing.php",
+			"sharing",
+			"130",
+			"q_130",
+			"130",
+			"0",
+			"stem",
+			"stem_cell_yes",
+			"layouts.php",
+			"My Sharing Choices",
+			"Stem cell researchers can use my data",
+			"q_39",
+			"stem",
+			"stem_cell",
+			"sharing.title",
+			"sharing",
+			"stem cell",
+			"simple",
+			"users",
+			"User_id",
+			"users_table",
+			"varchar",
+			"quiz",
+			"mypage",
+			"Forms_ID",
+			"Question",
+			"controller",
+			"View::make",
+			"home",
+			"Conditions",
+			"Terms & Conditions",
+			"Terms",
+			"Accept",
+			"My Page",
+			"sidebar",
+			"img",
+			"<a",
+			"flow",
+			"Privacy policy",
+			"static"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/index.handlebars",
+					"settings":
+					{
+						"buffer_size": 14488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13444,
+								13444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/history.handlebars",
+					"settings":
+					{
+						"buffer_size": 4254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3427,
+								3427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 981.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/index.js",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1163,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/faq.handlebars",
+					"settings":
+					{
+						"buffer_size": 3465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3454,
+								3454
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 246.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/login.handlebars",
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1201,
+								1201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/settings.handlebars",
+					"settings":
+					{
+						"buffer_size": 3168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3147,
+								3147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/js/locate.js",
+					"settings":
+					{
+						"buffer_size": 21912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								363,
+								363
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "data.json",
+					"settings":
+					{
+						"buffer_size": 2036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true
+}

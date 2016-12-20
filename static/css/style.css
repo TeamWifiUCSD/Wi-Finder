@@ -1,0 +1,39 @@
+  body 
+  {
+    padding: 0;
+    margin: 0;
+  }
+  html, body, #map 
+  {
+    height: 100%;
+    width: 100%;
+  }
+
+  #container 
+  { 
+  	width: 100%; 
+  	height: 100% 
+  }
+
+  #key
+  {
+    z-index: 100; 
+    position: absolute; 
+    margin: 110px 0px 0px 10px; 
+  }
+
+
+  #nav 
+  { 
+  	z-index: 100; 
+  	position: absolute; 
+  	margin: 10px 0px 0px 1050px; 
+  }
+
+  #wifi
+  {
+    z-index: 100;
+    position: absolute;
+    margin: 10px 0px 0px 500px;
+  }
+

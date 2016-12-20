@@ -1,0 +1,530 @@
+<html>
+
+<head>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+	<script src="/js/leaflet.js"></script>
+	<!--<script src="https://maps.google.com/maps/api/js?key=AIzaSyBQIoDF-NYDXiovnOeBtRBzqzr7S2VQv8E" type="text/javascript"></script> -->
+	<script src="./js/myscript.js" type="text/javascript"></script>
+	<script src="//speedof.me/api/api.js" type="text/javascript"></script>
+	<script src="/js/js.cookie.js"></script>
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/leaflet.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!-- Leaflet Locate Control -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/locate.min.css" />
+
+	<script src="/js/locate.js" charset="utf-8"></script>
+
+	<title>Team Wifi</title>
+
+</head>
+
+<body>
+	<div id="container">
+
+		<div class="card" id="key">
+			<div class="card-header">Key</div>
+			<div class="card-block">
+				<blockquote class="card-blockquote">
+					{{#if view2}}
+					<div><label class="btn alert alert-danger">Slow</label></div>
+					<div><label class="btn alert alert-warning">Average</label></div>
+					<div><label class="btn alert alert-success">Great</label></div>
+					{{else}}
+					<div><label class="btn btn-block btn-danger">Slow</label></div>
+					<div><label class="btn btn-block btn-warning">Average</label></div>
+					<div><label class="btn btn-block btn-success">Great</label></div>
+					{{/if}}
+				</blockquote>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Wifi Speed</h4>
+					</div>
+					<div class="modal-body">
+						<form>
+
+							<h3 style="color:red;"> Your current location is required in order to check your Wifi Speed.</h3>
+
+							<div class="form-group">
+					      <label for="sel1">Select Wifi Network</label>
+					      <select class="form-control" name="Wifi-Name"id="sel1">
+					      	<option value="UCSD-PROTECTED" >UCSD-PROTECTED</option>
+							    <option value="UCSD-GUEST" >UCSD-GUEST</option>
+							    <option value="eduroam" >eduroam</option>
+							    <option value="UCSD-DEVICE" >UCSD-DEVICE</option>
+							    <option value="RESNET-MUIR-E" >RESNET-MUIR-E</option>
+							    <option value="RESNET-MUIR" >RESNET-MUIR</option>
+							    <option value="RESNET-SIXTH-E" >RESNET-SIXTH-E</option>
+							    <option value="RESNET-SIXTH" >RESNET-SIXTH</option>
+							    <option value="RESNET-ERC-E" >RESNET-ERC-E</option>
+							    <option value="RESNET-ERC" >RESNET-ERC</option>
+							    <option value="RESNET-MARSHALL-E" >RESNET-MARSHALL-E</option>
+							    <option value="RESNET-MARSHALL" >RESNET-MARSHALL</option>
+							    <option value="RESNET-REVELLE-E" >RESNET-REVELLE-E</option>
+							    <option value="RESNET-REVELLE" >RESNET-REVELLE</option>
+							    <option value="Private/Other Network" >Private/Other Network</option>
+					      </select>
+					    
+
+								<label for="comment">Comment:</label>
+								<input type="text" class="form-control" id="pwd" name="User-Comments" placeholder="(Optional)">
+
+								<br>
+
+								<p>Personal Speed Rating:</p>
+
+								<div class="btn-group" data-toggle="buttons">
+								  <label class="btn btn-danger">
+								    <input type="radio" name="User-Rating" value="Slow"> Slow
+								  </label>
+								  <label class="btn btn-warning">
+								    <input type="radio" name="User-Rating" value="Average"> Average
+								  </label>
+								  <label class="btn btn-success">
+								    <input type="radio" name="User-Rating" value="Great"> Great
+								  </label>
+								</div>
+
+							<!--	<pre id="result" ></pre> -->
+
+							</div>
+
+							<button type="button submit" class="btn btn-default" onclick="btnStartClick()" style="float:right;">Submit</button>
+							<br>
+						</form>
+
+
+					</div>
+
+					<div class="modal-footer">
+						
+
+						<div id="msg"></div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- Get JSON data from form in modal -->
+		<script type="text/javascript">
+			$.fn.serializeObject = function()
+			{
+			    var o = {};
+			    var a = this.serializeArray();
+			    $.each(a, function() {
+			        if (o[this.name] !== undefined) {
+			            if (!o[this.name].push) {
+			                o[this.name] = [o[this.name]];
+			            }
+			            o[this.name].push(this.value || '');
+			        } else {
+			            o[this.name] = this.value || '';
+			        }
+			    });
+			    return o;
+			};
+
+			$(function() {
+			    $('form').submit(function() {
+			        //$('#result').text(JSON.stringify($('form').serializeObject()));
+
+			        Cookies.set('name', JSON.stringify($('form').serializeObject()));
+			        return false;
+			    });
+			});
+
+		</script>
+
+
+
+
+		<div id="nav">
+
+			<!-- Example single danger button -->
+			<div class="btn-group">
+				<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Menu
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="./index">Map</a>
+					<a class="dropdown-item" href="/history">History</a>
+					<a class="dropdown-item" href="/faq">FAQ</a>
+					<a class="dropdown-item" href="/settings">Settings</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="/">Sign Out</a>
+				</div>
+			</div>
+
+        </div>
+
+        <div id="wifi">
+
+        	<a href="./wifi.html" class="btn btn-lg btn-info"  role="button" data-toggle="modal" data-target="#myModal">Check Wifi</a>
+
+        </div>
+
+        <div id="map"></div>
+
+
+		</div>
+
+		<div id="wifi">
+
+			<a href="" class="btn btn-lg btn-info"  role="button" data-toggle="modal" data-target="#myModal">Check Wifi</a>
+
+		</div>
+
+		
+
+		<!-- Leaflet Map and GeoJSON Stuff -->
+
+		<script>
+
+		var map = L.map('map').setView([32.880824, -117.237583], 15);
+		mapLink =
+		'<a href="https://openstreetmap.org">OpenStreetMap</a>';
+		L.tileLayer(
+			'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; ' + mapLink + ' Contributors',
+				minZoom: 15,
+				maxZoom: 18,
+			}).addTo(map);''
+
+			var currentLat; // Will grab current latitude after user checks location
+			var currentLng; // Will grab current longitude after user checks location
+
+			
+
+			// Current location addon
+			var lc = L.control.locate({
+				strings: {
+					title: "Current Location"
+				}
+			}).addTo(map);
+
+			function saveText(text, filename){
+			  var a = document.createElement('a');
+			  a.setAttribute('href', 'data:text/plain;charset=utf-u,'+encodeURIComponent(text));
+			  a.setAttribute('download', filename);
+			  a.click()
+			}
+		
+			// Return coordinates of current locations
+			map.locate() /* This will return map so you can do chaining */
+        .on('locationfound', function(e){
+            currentLat = e.latitude;
+            currentLng = e.longitude;
+            sendInfo();
+
+        })
+       .on('locationerror', function(e){
+            console.log(e);
+            alert("Location access denied.");
+        });
+
+     	var myIcon = L.divIcon({className: 'my-div-icon'});
+     	var geoOption;
+			var poor, average, great;
+			var fillop;
+
+
+
+
+			// Two different circle colors for A/B testing
+			{{#if view2}}
+				poor = "#f2dede";
+				average = "#fcf8e3";
+				great = "#dff0d8";
+				fillop = 0.7;
+			{{else}}
+				poor = "#d9534f";
+				average = "#f0ad4e";
+				great = "#5cb85c";
+				fillop = 0.5;
+			{{/if}}
+
+			{{#each Wifi}}
+
+
+			var geojsonFeature = {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": [{{Coordinates}}]
+				}
+			};			
+
+
+			// Poor
+			var geojsonMarkerOptions1 = {
+				radius: 40,
+				fillColor: poor,
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: fillop,
+				icon: myIcon
+			};
+
+			// Great
+			var geojsonMarkerOptions2 = {
+				radius: 40,
+				fillColor: great,
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: fillop,
+				icon: myIcon
+			};
+
+			// Average
+			var geojsonMarkerOptions3 = {
+				radius: 40,
+				fillColor: average,
+				color: "#000",
+				weight: 1,
+				opacity: 1,
+				fillOpacity: fillop,
+				icon: myIcon
+			};
+
+			if("{{Connection}}" == "Great"){
+				geoOption = geojsonMarkerOptions2;
+			}
+
+			else if("{{Connection}}" == "Average"){
+				geoOption = geojsonMarkerOptions3;
+			}
+
+			else{
+				geoOption = geojsonMarkerOptions1;
+			}
+
+
+
+		
+
+
+			var loc = L.geoJson(geojsonFeature, {
+				pointToLayer: function (feature, latlng) {
+					return L.circleMarker(latlng, geoOption);
+					//return L.circleMarker(latlng, {icon: myIcon});
+
+				}
+			}).addTo(map);
+			
+			loc.bindPopup("Latency: {{Latency}} ms<br>Download: {{Download}} Mbps<br>Upload: {{Upload}} Mbps<br>Wifi-Name: {{Wifi-Name}}<br>User-Comments: {{User-Comments}}<br>User-Rating: {{User-Rating}}<br>Date: {{Date}}<br>");
+
+			{{/each}}
+
+			//var res = document.getElementById("result").textContent;
+			//var resultContent = JSON.parse(res);
+
+			
+			//console.log(res);
+
+			
+
+
+			//var b = JSON.parse(b);
+
+			
+			
+			
+
+			//var marker1 = L.marker(new L.LatLng(32.880824, -117.237583)).addTo(map);
+			//marker1.bindPopup("my tooltip text");
+
+
+
+
+			 //Wifi Test API Code
+
+			SomApi.account = "SOM583b6c4149f0d"; //your API Key here
+			SomApi.domainName = "wi-finder.herokuapp.com/"; //your domain or sub-domain here
+			SomApi.config.sustainTime = 1;
+			SomApi.onTestCompleted = onTestCompleted;
+			SomApi.onError = onError;
+
+			var msgDiv = document.getElementById("msg");
+
+			function btnStartClick() {
+				msgDiv.innerHTML = "<h3>Speed test in progress. Please wait...</h3>";
+				SomApi.startTest();
+
+		/*		var tester = {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": [-117.235770, 32.874796]
+				}
+			};
+
+			var gg = L.geoJson(tester, {
+				pointToLayer: function (feature, latlng) {
+					return L.circleMarker(latlng, geoOption);
+					//return L.circleMarker(latlng, {icon: myIcon});
+
+				}
+			}).addTo(map); 
+
+			//var res = document.getElementById("result").textContent;
+			//var resultContent = JSON.parse(res);
+
+		 	z = JSON.stringify($('form').serializeObject());
+			h = JSON.parse(z);
+			console.log(h);
+				
+			gg.bindPopup("Wifi-Name: " + h["Wifi-Name"] + "<br>User-Comments: " + h["User-Comments"] + "<br>User-Rating: " + h["User-Rating"] + "<br>Date: {{Date}}<br>"); */
+
+			}
+
+			function onTestCompleted(testResult) {
+				msgDiv.innerHTML =
+				"<h3>"+
+				"Download: " +testResult.download +"Mbps <br/>"+
+				"Upload: " +testResult.upload +"Mbps <br/>"+
+				"Latency: " +testResult.latency +"ms <br/>"+
+				"Jitter: " +testResult.jitter +"ms <br/>"+
+				"Test Server: "+testResult.testServer +"<br/>"+
+				"IP: " +testResult.ip_address +"<br/>"+
+				"Hostname: " +testResult.hostname +"<br/>"+
+				"</h3>";
+
+				var speed = testResult.download;
+
+				var newgeojsonFeature = {
+				"type": "Feature",
+				"geometry": {
+					"type": "Point",
+					"coordinates": [currentLng, currentLat]
+				}
+				};
+
+				
+
+				var conn;
+
+				if(speed < 7.86){
+					geoOption = geojsonMarkerOptions1;
+					conn = "Slow";
+				}
+
+				else if(speed > 7.86 && speed < 10){
+					geoOption = geojsonMarkerOptions3;
+					conn = "Average";
+				}
+
+				else{
+					geoOption = geojsonMarkerOptions2;
+					conn = "Great";
+				}
+
+				// Beginning of JSON output data
+
+				
+
+
+			//	var txtFile = "test.json";
+			//	var file = new File(txtFile,"write");
+				//var str = JSON.stringify(x);
+
+			
+		/*		log("opening file...");
+				file.open(); 
+				log("writing file..");
+				file.writeline(str);
+				file.close();*/
+
+				result = JSON.stringify($('form').serializeObject());
+				resultContent = JSON.parse(result);
+
+
+				var today = new Date();
+				var dd = today.getDate();
+				var mm = today.getMonth()+1; //January is 0!
+				var yyyy = today.getFullYear();
+
+				if(dd<10) {
+				    dd='0'+dd;
+				} 
+
+				if(mm<10) {
+				    mm='0'+mm;
+				} 
+	 
+				today = mm+'/'+dd+'/'+yyyy;
+
+				//console.log(y); 
+
+				var lol = {items: [
+					{"Coordinates": [currentLng, currentLat]},
+			    {"Latency": testResult.latency},
+			    {"Download": testResult.download},
+			    {"Upload": testResult.upload},
+			    {"Connection": conn},
+			    {"Date": today},
+			    {"WifiName": resultContent["Wifi-Name"]},
+			    {"UserComments": resultContent["User-Comments"]},
+			    {"UserRating": resultContent["User-Rating"]}
+				]};
+
+				Cookies.set('swag', lol);
+
+
+				var bruh = L.geoJson(newgeojsonFeature, {
+					pointToLayer: function (feature, latlng) {
+						return L.circleMarker(latlng, geoOption);
+					}
+				}).addTo(map);
+
+				bruh.bindPopup("Latency: " + testResult.latency + " ms<br>Download: " + testResult.download + " Mbps<br>Upload: " + testResult.upload + " Mbps<br>Wifi-Name: " + resultContent["Wifi-Name"] + "<br>User-Comments: " + resultContent["User-Comments"] + "<br>User-Rating: " + resultContent["User-Rating"] + "<br>Date: " + today);
+				
+
+
+			}
+
+			function onError(error) {
+				msgDiv.innerHTML = "Error "+ error.code + ": "+error.message;
+			}
+
+			
+			</script>
+
+
+		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-88067361-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+
+	</html>

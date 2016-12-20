@@ -1,0 +1,44 @@
+body {
+  background: #446CB3;
+}
+
+.settingspad{
+  padding:50px;
+}
+
+.settings {
+  background-color: white;
+  border: 25px solid #c69214;
+  padding: 25px;
+  box-shadow:  -1px 1px #77aaff,
+      -2px 2px #77aaff,
+      -3px 3px #77aaff,
+      -4px 4px #77aaff,
+      -5px 5px #77aaff;
+  -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+  -moz-box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.settings h1 {
+  margin-left: 100px;
+  margin-right: 70px;
+}
+
+.settingopts {
+  margin-left: 150px;
+}
+
+.password {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.emailConf {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.deleteAcc {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

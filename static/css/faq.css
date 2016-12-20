@@ -1,0 +1,29 @@
+body {
+  background: #446CB3;
+}
+
+.FAQ{
+  padding: 50px;
+}
+
+.FAQbox {
+  background-color: white;
+  border: 25px solid #c69214;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+  -moz-box-shadow: 0 0 10px rgb(0,0,0);
+}
+.FAQ h1{
+  margin-left: 100px;
+  margin-right: 70px;
+}
+
+.FAQ h5 {
+  margin-left: 150px;
+  margin-right: 70px;
+}
+
+.FAQ p {
+  margin-left: 150px;
+  margin-right: 150px;
+}

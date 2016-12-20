@@ -1,0 +1,76 @@
+{
+  "Wifi": [
+    {
+      "Latency": 40,
+      "Upload": 1.25,
+      "Download": 7.12,
+      "Location": "Eleanor Roosevelt College",
+      "Coordinates": [-117.241821, 32.885320],
+      "Wifi-Name": "RESNET-ERC-E",
+      "User-Comments": "Feels sluggish",
+      "User-Rating": "Slow",
+      "Connection": "Average",
+      "Date": "10/15/2016"
+    },
+    {
+      "Latency": 100,
+      "Upload": 0.8,
+      "Download": 5.40,
+      "Location": "Warren College",
+      "Coordinates": [-117.234640, 32.881459],
+      "Wifi-Name": "RESNET-WARREN-E",
+      "User-Comments": "N/A",
+      "User-Rating": "Average",
+      "Connection": "Average",
+      "Date": "10/10/2016"
+    },
+    {
+      "Latency": 246,
+      "Upload": 1.3,
+      "Download": 2.2,
+      "Location": "Sixth College",
+      "Coordinates": [-117.232076, 32.879225],
+      "Wifi-Name":"UCSD-GUEST",
+      "User-Comments": "extremely slow wifi",
+      "User-Rating": "Slow",
+      "Connection": "Slow",
+      "Date": "9/15/2016"
+    },
+    {
+      "Latency": 15,
+      "Upload": 20.22,
+      "Download": 13.50,
+      "Location": "Muir College",
+      "Coordinates": [-117.241403, 32.878820],
+      "Wifi-Name": "UCSD-PROTECTED",
+      "User-Comments": "extremely fast wifi. very satisfied!",
+      "User-Rating": "Great",
+      "Connection": "Great",
+      "Date": "9/12/2016"
+    },
+    {
+      "Latency": 50,
+      "Upload": 14.25,
+      "Download": 10.50,
+      "Location": "Marshall College",
+      "Coordinates": [-117.240700, 32.882229],
+      "Wifi-Name": "UCSD-PROTECTED",
+      "User-Comments": "the wifi is okay. no problems",
+      "User-Rating": "Average",
+      "Connection": "Great",
+      "Date": "9/11/2016"
+    },
+    {
+      "Latency": 318,
+      "Upload": 0.22,
+      "Download": 2.50,
+      "Location": "Revelle College",
+      "Coordinates": [-117.241043, 32.874462],
+      "Wifi-Name": "RESNET-REVELLE",
+      "User-Comments": "unbearably slow wifi. UCSD??!?",
+      "User-Rating": "Slow",
+      "Connection": "Slow",
+      "Date": "8/15/2016"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+body {
+  background: #446CB3;
+}
+
+.History{
+  padding: 50px;
+}
+
+.Date {
+  background-color: white;
+  border: 25px solid #c69214;
+  padding: 15px;
+  -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+  -moz-box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.col-lg-4{
+  white-space: nowrap;
+}
+
+.btn-group{
+  float: right;
+  padding-right: 10em;
+}
+
+.col-md-4{
+    white-space: nowrap;
+}
+
+.newline{
+  display: inline-block;
+  width: 150%;
+  padding-bottom: 30px;
+}
+
+
+.tab { margin-left: 40px; }
+
+p{
+  margin:0;
+}

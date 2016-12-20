@@ -1,0 +1,25 @@
+{
+  "name": "teamwifi",
+  "version": "1.0.0",
+  "description": "Our app for our CSE 170 project",
+  "main": "app.js",
+  "dependencies": {
+    "express3-handlebars": "^0.5.0",
+    "express": "^3.4.7",
+    "leaflet.locatecontrol": "^0.56.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masudrahman/TeamWifi.git"
+  },
+  "author": "Masud Rahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masudrahman/TeamWifi/issues"
+  },
+  "homepage": "https://github.com/masudrahman/TeamWifi#readme"
+}
