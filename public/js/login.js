@@ -22,3 +22,12 @@ var el = document.getElementById("eye").addEventListener("click", function () {
         }
     
 }, false);
+
+// allows to press enter to sign up
+document.getElementById("exampleInputPassword1")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("signUp").click();
+    }
+});
