@@ -13,6 +13,7 @@ var login = require('./routes/login');
 var history = require('./routes/history');
 var faq = require('./routes/faq');
 var settings = require('./routes/settings');
+var create = require('./routes/create');
 
 // Example route
 // var user = require('./routes/user');
@@ -41,6 +42,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', login.view);
+app.get('/create', create.view);
 app.get('/index', index.view);
 app.get('/altindex', index.view2);
 app.get('/faq', faq.view);

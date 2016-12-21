@@ -2,6 +2,16 @@ body{
   background: -webkit-linear-gradient(#446CB3, #22A7F0);
 }
 
+@media (min-width: 500px) {
+  body {
+    width:50%;
+  }
+}
+
+img{
+  max-width: 100%;
+}
+
 .logo{
   text-align: center;
 }
@@ -16,8 +26,9 @@ body{
 }
 
 .innerbox .logo{
-  width: 50%;
+  width: 40%;
   height: auto;
+  margin: auto;
 }
 
 #picture{
@@ -25,9 +36,18 @@ body{
   vertical-align: top;
 }
 
+@media only screen and (max-device-width: 480px) {
+  #picture { 
+    display:none;
+  }
+}
 
-.innerbox {   
-  display: inline-block;
+
+.innerbox { 
+vertical-align: bottom;  
+display: inline-block;
+min-width: 500px;
+min-height: 400px;
  background-color: white;
  border-radius: 10px;
  width: 30vw;
@@ -40,6 +60,11 @@ body{
 .form-group{
   width: 80%;
   margin-left: 10%;
+  margin-bottom: 1em;
+}
+
+#exampleInputName{
+  margin-bottom: 1em;
 }
 
 .form-group1{
@@ -59,10 +84,11 @@ body{
 
 /* Button */
 .btn-block{
+  position: responsive;
   width : 50%;
   margin: auto;
   border: 0;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   height: 2.5rem;
   line-height: 2.5rem;
   padding: 0 1.5rem;
@@ -72,4 +98,20 @@ body{
   border-radius: .25rem;
   letter-spacing: .2em;
   transition: background .2s;
+}
+
+hr.style17 {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+  width: 80%;
+}
+hr.style17:after {
+  content: 'or';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: white;
+  color: #8c8b8b;
+  font-size: 18px;
 }
