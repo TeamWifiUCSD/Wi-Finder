@@ -7,6 +7,7 @@ body{
 }
 
 .module{
+  width: 800px;
   text-align: center;
   position: fixed;
   top: 50%;
@@ -19,14 +20,14 @@ body{
   height: auto;
 }
 
-.picture{
+#picture{
   display: inline-block;
   vertical-align: top;
 }
 
 
 .innerbox {   
- display: inline-block;
+  display: inline-block;
  background-color: white;
  border-radius: 10px;
  width: 30vw;
