@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"top",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"U",
 				"User-Comments"
 			],
@@ -124,20 +192,12 @@
 				"margin-right"
 			],
 			[
-				"mar",
-				"margin-left"
-			],
-			[
 				"al",
 				"vertical-align"
 			],
 			[
 				"team",
 				"team-member-pic"
-			],
-			[
-				"te",
-				"team-member"
 			],
 			[
 				"u",
@@ -160,10 +220,6 @@
 				"inputX"
 			],
 			[
-				"in",
-				"included_cols"
-			],
-			[
 				"fff",
 				"fff"
 			],
@@ -182,10 +238,6 @@
 			[
 				"fon",
 				"font-style"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"fa",
@@ -256,6 +308,20 @@
 	},
 	"file_history":
 	[
+		"/Users/erictseng/Wi-Finder/routes/create.js",
+		"/Users/erictseng/Wi-Finder/app.js",
+		"/Users/erictseng/Wi-Finder/public/css/login.css",
+		"/Users/erictseng/Wi-Finder/views/create.handlebars",
+		"/Users/erictseng/Wi-Finder/views/login.handlebars",
+		"/Users/erictseng/Wi-Finder/views/settings.handlebars",
+		"/Users/erictseng/Wi-Finder/routes/settings.js",
+		"/Users/erictseng/Wi-Finder/routes/faq.js",
+		"/Users/erictseng/Wi-Finder/public/js/login.js",
+		"/Users/erictseng/Wi-Finder/views/index.handlebars",
+		"/Users/erictseng/Wi-Finder/public/css/faq.css",
+		"/Users/erictseng/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/erictseng/Wi-Finder/views/faq.handlebars",
+		"/Users/erictseng/Library/Application Support/Sublime Text 2/Packages/User/Plain text.sublime-settings",
 		"/Users/masudrahman/Code/IntroHCI/lab7/views/index.handlebars",
 		"/Users/masudrahman/Code/IntroHCI/lab7/routes/index.js",
 		"/Users/masudrahman/Code/TeamWifi/data.json",
@@ -369,21 +435,7 @@
 		"/Users/masudrahman/Code/marine-v1.0/HTML/contact.html",
 		"/Users/masudrahman/Code/marine-v1.0/HTML/services.html",
 		"/Users/masudrahman/Code/marine-v1.0/HTML/index-business.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/css/style.css",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/about.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/sc-tabs-accordions.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/index-business2.html",
-		"/Users/masudrahman/Code/housing-model/ml-model.py",
-		"/Users/masudrahman/Code/housing-model/scrapy.py",
-		"/Users/masudrahman/Code/Selenium/test_python_org_search.py",
-		"/Users/masudrahman/Code/Selenium/taco.py",
-		"/Users/masudrahman/Code/Selenium/python_org_search.py",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/page-contactus.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/blog-single.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/page-services.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/index-corporation.html",
-		"/Users/masudrahman/Code/marine-v1.0/HTML/blog-big-image.html",
-		"/Users/masudrahman/Code/wordpress/wp-content/themes/startwordpress/content.php"
+		"/Users/masudrahman/Code/marine-v1.0/HTML/css/style.css"
 	],
 	"find":
 	{
@@ -406,6 +458,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"top",
+			"446CB3",
+			"body",
 			"str",
 			"x",
 			"result\"",
@@ -530,10 +585,7 @@
 			"My Page",
 			"sidebar",
 			"img",
-			"<a",
-			"flow",
-			"Privacy policy",
-			"static"
+			"<a"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -562,7 +614,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
