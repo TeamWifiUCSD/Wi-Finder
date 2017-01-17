@@ -12,22 +12,29 @@ var pwShown = 0;
 
 var el = document.getElementById("eye").addEventListener("click", function () {
 
-        if (pwShown == 0) {
-            pwShown = 1;
-            console.log("code being run");
-            show();
-        } else {
-            pwShown = 0;
-            hide();
-        }
+    if (pwShown == 0) {
+        pwShown = 1;
+        show();
+    } else {
+        pwShown = 0;
+        hide();
+    }
     
 }, false);
 
 // allows to press enter to sign up
 document.getElementById("exampleInputPassword1")
-    .addEventListener("keyup", function(event) {
+.addEventListener("keyup", function(event) {
     event.preventDefault();
     if (event.keyCode == 13) {
         document.getElementById("signUp").click();
+    }
+});
+
+document.getElementById("exampleInputPassword1")
+.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        document.getElementById("LogIn").click();
     }
 });
